@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(253, 254, 255);
+    margin: 0;
+    padding: 0;
+}
+.titulo{
+    color: rgb(43, 70, 92);
+    text-align: center;
+    font-family: sans-serif;
+    display: flexbox;
+    font-size: 2cm;
+}
+.paralogear{
+    display: flex;
+    flex-direction: column;
+    gap: 10 ;
+    width: 100% ;
+    max-width: 300px;
+    margin: 0 auto;
+ 
+}
+.ingreso{
+   
+    margin-top: 20px;
+    margin-left: 650px;
+    position: relative;
+    background-color: chartreuse;
+    color: aliceblue;
+    height: 30px;
+    width: 90px;
+    
+
+}
+input[type="text"], input[type="password"]{
+    padding: 10px;
+    font-size: 16px;
+    border:1px solid #ccc;
+
+}
